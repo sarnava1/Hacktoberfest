@@ -1,12 +1,12 @@
 
 
 var button=document.querySelector("button");
-var isBlue=false;
+var isColored=false;
 button.addEventListener("click",function(){
 	//alert('connected');
-	if(isBlue)
-	document.body.style.background="white";
-    else
-     	document.body.style.background="blue";
-     isBlue=!isBlue;
+		if(isColored)
+				document.body.style.background="#FFFFFF";
+	  else
+	   		document.body.style.background="#FFFF00";
+	     	isColored = !isColored;
 });
