@@ -1,7 +1,7 @@
 
 
 var button=document.querySelector("button");
-var isBlue=false;
+var isYellow=false;
 button.addEventListener("click",function(){
 	//alert('connected');
 	if(isYellow)
