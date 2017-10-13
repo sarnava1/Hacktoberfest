@@ -1,12 +1,9 @@
+'use strict';
 
+/* colors */
+const YELLOW = "#FFFF00";
 
-var button=document.querySelector("button");
-var isBlue=false;
-button.addEventListener("click",function(){
-	//alert('connected');
-	if(isBlue)
-	document.body.style.background="white";
-    else
-     	document.body.style.background="blue";
-     isBlue=!isBlue;
+var button = document.getElementById("changerBt");
+button.addEventListener("click", function() {
+  document.body.style.backgroundColor = YELLOW;
 });
