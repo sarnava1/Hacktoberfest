@@ -1,12 +1,12 @@
 
 
 var button=document.querySelector("button");
-var isBlue=false;
+var filled=false;
 button.addEventListener("click",function(){
 	//alert('connected');
-	if(isBlue)
+	if(filled)
 	document.body.style.background="white";
     else
-     	document.body.style.background="blue";
-     isBlue=!isBlue;
+     	document.body.style.background="yellow";
+     filled=!filled;
 });
