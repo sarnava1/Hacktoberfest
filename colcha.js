@@ -1,12 +1,10 @@
-
-
-var button=document.querySelector("button");
-var filled=false;
-button.addEventListener("click",function(){
-	//alert('connected');
-	if(filled)
-	document.body.style.background="white";
+var button = document.querySelector("button");
+var isColored = false;
+button.addEventListener("click", function() {
+    //alert('connected');
+    if (isColored)
+        document.body.style.background = "#FFFFFF";
     else
-     	document.body.style.background="yellow";
-     filled=!filled;
+        document.body.style.background = "#FFFF00";
+    isColored = !isColored;
 });
