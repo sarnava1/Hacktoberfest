@@ -7,6 +7,6 @@ button.addEventListener("click",function(){
 	if(filled)
 	document.body.style.background="white";
     else
-     	document.body.style.background="yellow";
+     	document.body.style.background="blue";
      filled=!filled;
 });
