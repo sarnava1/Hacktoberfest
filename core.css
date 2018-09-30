@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background: #607D8B;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 100vw;
+  border-top: 30px solid #263238;
+}
+
+#main {
+  width: 100%;
+} #main h1 {
+  color: #fff;
+  margin: 4% 0;
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+#contributors {
+  width: 100%;
+} #contributors article {
+  width: 900px;
+  margin: 8px 0;
+  padding: 26px;
+  color: #fff;
+  background-color: #263238;
+  transition: 0.7s ease;
+}  #contributors article:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.7s ease;
+}
+
+.name {
+  margin-bottom: 10px;
+} .name b {
+  font-size: 1.4em;
+  text-decoration: underline;
+}
