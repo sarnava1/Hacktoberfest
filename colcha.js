@@ -1,5 +1,5 @@
-var button=document.querySelector("button");
-var filled=false;
+let button=document.querySelector("button");
+let filled=false;
 button.addEventListener("click",function(){
 	//alert('connected');
 	if(filled)
