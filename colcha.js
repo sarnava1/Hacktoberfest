@@ -8,3 +8,10 @@ button.addEventListener("click",function(){
      	document.body.style.background="yellow";
      filled=!filled;
 });
+
+button.addEventListener("mouseover", (e) => {
+	e.target.style.color="orange";
+	setTimeOut(() => {
+		e.target.style.color="";
+	}, 1000);
+}, false);
