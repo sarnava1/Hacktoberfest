@@ -1,4 +1,4 @@
-# Hacktoberfest
+#Hacktoberfest
 A simple background color changer using js.
 
 This repo will test the power of OPEN SOURCE in GENERAL and HACKTOBERFEST in particular.
